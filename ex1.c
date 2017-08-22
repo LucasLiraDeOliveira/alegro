@@ -73,17 +73,21 @@ int main(void)
     triangle(buff, 160, 0, 280, 120, 160, 120, CORVERMELHO);
 
     /* fazendo o L */
-    rectfill(buff, 150, 62, 160, 190, CORBRANCO);
+    rectfill(buff, 150, 62, 160, 170, CORBRANCO);
 
-    rectfill(buff, 160, 180, 180, 190, CORBRANCO);
+    rectfill(buff, 160, 160, 190, 170, CORBRANCO);
 
     /* faz bolinha final */
-    circlefill(buff, 110, 80, 20, CORAMARELO);
+    circlefill(buff, 110, 75, 15, CORAMARELO);
 
+    /* primeiro retangulo*/
     rectfill(buff, 268 , 120, 248, 70, CORVERDE);
 
+    /* segundo retangulo*/
+    rectfill(buff, 258 , 70, 228, 50, CORAZUL);
 
-    rectfill(buff, 228 , 110, 268, 120, CORBRANCO);
+    /*perna do G */
+    rectfill(buff, 190, 110, 268, 120, CORBRANCO);
 
 
 
