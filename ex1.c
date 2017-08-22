@@ -73,12 +73,16 @@ int main(void)
     triangle(buff, 160, 0, 280, 120, 160, 120, CORVERMELHO);
 
     /* fazendo o L */
-    rectfill(buff, 150, 22, 160, 150, CORBRANCO);
+    rectfill(buff, 150, 62, 160, 190, CORBRANCO);
 
-    rectfill(buff, 160, 140, 180, 150, CORBRANCO);
+    rectfill(buff, 160, 180, 180, 190, CORBRANCO);
 
     /* faz bolinha final */
-    circlefill(buff, 130, 32, 20, CORBRANCO);
+    circlefill(buff, 110, 52, 20, CORBRANCO);
+
+    rectfill(buff, 214 , 120, 180, 90, CORBRANCO);
+
+
 
     /*circle(buff, 160, 120, 100, CORAMARELO);*/
     /*textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");*/
