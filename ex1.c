@@ -78,13 +78,15 @@ int main(void)
     rectfill(buff, 160, 160, 190, 170, CORBRANCO);
 
     /* faz bolinha final */
-    circlefill(buff, 110, 75, 15, CORAMARELO);
+    circlefill(buff, 120, 75, 15, CORAMARELO);
 
     /* primeiro retangulo*/
     rectfill(buff, 268 , 120, 248, 70, CORVERDE);
 
     /* segundo retangulo*/
     rectfill(buff, 258 , 70, 228, 50, CORAZUL);
+
+    rectfill(buff, 160, 12, 210, 32, CORBRANCO);
 
     /*perna do G */
     rectfill(buff, 190, 110, 268, 120, CORBRANCO);
