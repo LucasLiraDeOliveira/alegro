@@ -81,16 +81,16 @@ int main(void)
     circlefill(buff, 120, 75, 15, CORAMARELO);
 
     /* primeiro retangulo*/
-    rectfill(buff, 268 , 120, 248, 70, CORVERDE);
+    rectfill(buff, 268 , 120, 248, 70, CORVERMELHO);
 
     /* segundo retangulo*/
-    rectfill(buff, 258 , 70, 228, 50, CORAZUL);
+    rectfill(buff, 258 , 70, 228, 50, CORVERMELHO);
 
-    rectfill(buff, 160, 12, 210, 32, CORBRANCO);
+    rectfill(buff, 160, 12, 210, 32, CORVERMELHO);
 
-    rectfill(buff, 210, 22, 235, 50, CORAMARELO);
+    rectfill(buff, 210, 22, 235, 50, CORVERMELHO);
 
-    rectfill(buff, 235, 22, 245, 50, CORBRANCO);
+    rectfill(buff, 235, 36, 245, 50, CORVERMELHO);
 
     /*perna do G */
     rectfill(buff, 190, 110, 268, 120, CORBRANCO);
