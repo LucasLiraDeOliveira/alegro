@@ -88,7 +88,7 @@ int main(void)
 
     rectfill(buff, 160, 12, 210, 32, CORVERMELHO);
 
-    rectfill(buff, 210, 22, 235, 50, CORVERMELHO);
+    rectfill(buff, 210, 28, 235, 50, CORVERMELHO);
 
     rectfill(buff, 235, 40, 245, 50, CORVERMELHO);
 
