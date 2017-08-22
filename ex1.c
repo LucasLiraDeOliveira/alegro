@@ -62,11 +62,20 @@ int main(void)
 
     rectfill(buff, 0, 0, 320, 240, CORBRANCO);
 
+    /* fazendo os circulos da logo */
     circlefill(buff, 160, 120, 120, CORVERMELHO);
 
     circlefill(buff, 160, 120, 108, CORBRANCO);
 
     circlefill(buff, 160, 120, 100, CORVERMELHO);
+
+    /* fazendo um triangulo para que corte no anel branco ajude a formar o G */
+    triangle(buff, 160, 0, 280, 120, 160, 120, CORVERMELHO);
+
+    /* fazendo o L */
+    rectfill(buff, 150, 22, 160, 150, CORBRANCO);
+
+    rectfill(buff, 160, 140, 180, 150, CORBRANCO);
 
     /*circle(buff, 160, 120, 100, CORAMARELO);*/
     /*textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");*/
