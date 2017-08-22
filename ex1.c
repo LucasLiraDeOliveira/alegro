@@ -70,7 +70,7 @@ int main(void)
     circlefill(buff, 160, 120, 100, CORVERMELHO);
 
     /* fazendo um triangulo para que corte no anel branco ajude a formar o G */
-    triangle(buff, 160, 0, 280, 120, 160, 120, CORVERMELHO);
+    /*triangle(buff, 160, 0, 280, 120, 160, 120, CORVERMELHO);*/
 
     /* fazendo o L */
     rectfill(buff, 150, 62, 160, 170, CORBRANCO);
