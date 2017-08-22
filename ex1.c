@@ -35,6 +35,7 @@
 #define CORVERDE (makecol(0, 255, 0))
 #define CORAMARELO (makecol(255,255,100))
 #define CORVERMELHO (makecol(255, 0, 0))
+#define CORMAGENTA (makecol(240,23,165))
 
 #define IMAGENAME "teste.bmp" /* nome do arquivo de imagem */
 
@@ -63,11 +64,11 @@ int main(void)
     rectfill(buff, 0, 0, 320, 240, CORBRANCO);
 
     /* fazendo os circulos da logo */
-    circlefill(buff, 160, 120, 120, CORVERMELHO);
+    circlefill(buff, 160, 120, 120, CORMAGENTA);
 
     circlefill(buff, 160, 120, 108, CORBRANCO);
 
-    circlefill(buff, 160, 120, 100, CORVERMELHO);
+    circlefill(buff, 160, 120, 100, CORMAGENTA);
 
     /* fazendo um triangulo para que corte no anel branco ajude a formar o G */
     /*triangle(buff, 160, 0, 280, 120, 160, 120, CORVERMELHO);*/
