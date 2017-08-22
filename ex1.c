@@ -78,12 +78,12 @@ int main(void)
     rectfill(buff, 160, 180, 180, 190, CORBRANCO);
 
     /* faz bolinha final */
-    circlefill(buff, 110, 100, 20, CORAMARELO);
+    circlefill(buff, 110, 80, 20, CORAMARELO);
 
-    rectfill(buff, 268 , 120, 248, 90, CORVERDE);
+    rectfill(buff, 268 , 120, 248, 70, CORVERDE);
 
 
-    rectfill(buff, 240 , 110, 280, 120, CORBRANCO);
+    rectfill(buff, 228 , 110, 268, 120, CORBRANCO);
 
 
 
