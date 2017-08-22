@@ -60,8 +60,16 @@ int main(void)
         exit(EXIT_FAILURE);
     }
 
-    circle(buff, 160, 120, 100, CORAMARELO);
-    textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");
+    rectfill(buff, 0, 0, 320, 240, CORBRANCO);
+
+    circlefill(buff, 160, 120, 120, CORVERMELHO);
+
+    circlefill(buff, 160, 120, 108, CORBRANCO);
+
+    circlefill(buff, 160, 120, 100, CORVERMELHO);
+
+    /*circle(buff, 160, 120, 100, CORAMARELO);*/
+    /*textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");*/
 
     save_bitmap(IMAGENAME, buff, pal);
     destroy_bitmap(buff);
