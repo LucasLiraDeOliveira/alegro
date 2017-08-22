@@ -77,6 +77,9 @@ int main(void)
 
     rectfill(buff, 160, 140, 180, 150, CORBRANCO);
 
+    /* faz bolinha final */
+    circlefill(buff, 130, 32, 20, CORBRANCO);
+
     /*circle(buff, 160, 120, 100, CORAMARELO);*/
     /*textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");*/
 
