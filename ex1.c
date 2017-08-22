@@ -88,7 +88,9 @@ int main(void)
 
     rectfill(buff, 160, 12, 210, 32, CORBRANCO);
 
-    rectfill(buff, 210, 22, 235, 50, CORBRANCO);
+    rectfill(buff, 210, 22, 235, 50, CORAMARELO);
+
+    rectfill(buff, 235, 22, 245, 50, CORBRANCO);
 
     /*perna do G */
     rectfill(buff, 190, 110, 268, 120, CORBRANCO);
